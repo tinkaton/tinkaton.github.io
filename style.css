@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-html {
-    background-color: #fffdf9;
-    height: 100%;
-}
 body { 
     font-family: 'Noto Sans', sans serif;
 	display: flex;
 	justify-content: center;
-}
-main{
     margin: auto;
 	width: 793px;
 	height: 1122px;
+}
+main{
 }
 .section-left{
     text-align: center;
@@ -59,6 +55,7 @@ p.lieux{
 p.coordonnées{
     margin-top: -2px;
     margin-bottom:-5px;
+    width: fit-content;
 }
 .qr{
     margin-top: 24px;
